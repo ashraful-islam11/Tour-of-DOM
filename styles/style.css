@@ -1,0 +1,12 @@
+ h2{
+    color: blueviolet;
+    font-size:  22px;
+
+ }
+
+ ul li {
+    color: green;
+    list-style:  none;
+    font-size:  19px;
+    font-weight:  bold;
+ }
