@@ -9,7 +9,7 @@
 
  const h2Collection =document.getElementsByTagName('h2');
  console.log(h2Collection);
- // todo : এগুলো সম্পূর্ণ array নয়। array এর মত। html collection . 
+ // todo : এগুলো সম্পূর্ণ array নয়। array এর মত। html collection . array like object .
 
  // আবার আমারা চাইলে ,  ei htmlCollection er vetore, loop calate pari.
 
@@ -26,3 +26,19 @@
   for( const paragraph of allParagraph){
     console.log(paragraph.innerText);
   }
+
+
+  // todo : Traversing dom - getElementsByClassName VS getElementById
+  const singleBtn = document.getElementById('fast-btn');
+  const btnText = singleBtn.innerText;
+  console.log(btnText);
+
+  const helloDom = document.getElementById('heading');
+  console.log(helloDom.innerText);
+
+
+
+  const getClasses = document.getElementsByClassName('lorem');
+  const setText = getClasses.innerText = 'hello lorem how are you';
+  // getElementById === jodi na thake, taole undefined dibe, 
+  // getElementsByClassName = na thakle,

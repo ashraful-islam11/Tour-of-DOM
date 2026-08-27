@@ -7,6 +7,28 @@
  ul li {
     color: green;
     list-style:  none;
-    font-size:  19px;
     font-weight:  bold;
  }
+ #fast-btn {
+    color: blue;
+    padding: 10px;
+    background-color: rgb(142, 184, 142);
+    font-size:  20px;
+    
+ }
+
+ .styleElement {
+   background-color: rgb(87, 73, 100);
+   border : 5px solid rgb(114, 141, 74);
+   padding : 10px;
+   margin: 20px ;
+   border-radius: 10px;
+
+ }
+ .styleElement h2 {
+   color: black;
+ }
+ .styleElement ul li{
+   color: darkblue;
+ }
+ 
